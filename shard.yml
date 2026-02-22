@@ -1,0 +1,22 @@
+name: carbon_resend_adapter
+version: 0.1.0
+
+authors:
+  - Remy Marronnier
+
+crystal: '>= 1.10.0'
+
+license: MIT
+
+dependencies:
+  carbon:
+    github: luckyframework/carbon
+    version: ~> 0.6.0
+
+development_dependencies:
+  webmock:
+    github: manastech/webmock.cr
+    version: ~> 0.14.0
+  lucky_env:
+    github: luckyframework/lucky_env
+    version: ~> 0.3.0
